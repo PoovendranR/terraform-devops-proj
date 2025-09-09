@@ -12,3 +12,4 @@ resource "aws_instance" "linux" {
     Name = "FreeTier-EC2-${count.index + 1}"
   }
 }
+
